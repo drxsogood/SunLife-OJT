@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F1EFEF;
+}
+
+.container {
+    text-align: center;
+}
+
+.fancy-button {
+    background-color: #ECAB23;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.fancy-button:hover {
+    background-color: #ECAB23;
+}
